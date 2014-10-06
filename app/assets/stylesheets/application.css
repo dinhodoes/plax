@@ -1,0 +1,130 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+/* prepping clouds for parallax functionality */
+
+/* cloud positioning */
+.prlx {
+	position: absolute;
+	background-repeat: no-repeat;
+	height: auto;
+}
+
+/* cloud sizes */
+.small {
+	width: 100px;
+}
+
+.med {
+	width: 200px;
+}
+
+.large {
+	width: 275px;
+}
+
+/* specific cloud placement */
+#one {
+	margin-top: 325px;
+	margin-left: 40px;
+}
+
+#two {
+	margin-top: 260px;
+	margin-left: 400px;
+}
+
+#three {
+	margin-top: 250px;
+	margin-left: -300px;
+}
+
+#four {
+	margin-top: 500px;
+	margin-left: 50px;
+}
+
+#five {
+	margin-top: 450px;
+	margin-left: -425px;
+}
+
+#six {
+	margin-top: 450px;
+	margin-left: 300px;
+}
+
+#seven {
+	margin-top: 800px;
+	margin-left: -200px;
+}
+
+#eight {
+	margin-top: 750px;
+	margin-left: 375px;
+}
+
+#nine {
+	margin-top: 675px;
+	margin-left: -750px;
+}
+
+#ten {
+	margin-top: 350px;
+	margin-left: -525px;
+}	
+
+/* body of homepage */
+body {
+	margin: 0;
+}
+
+/* FIRST TIER */
+#block_top {
+	background-image: url("/assets/cloud_bg.jpg");
+	background-size: cover;
+	height: 1000px;
+	width: 100%;
+	z-index: -100;
+	position: relative;
+}
+
+/* SECOND TIER */
+#block_mid {
+	background-color: white;
+	height: 300px;
+	width: 100%;
+}
+
+#project1 {
+
+}
+
+#project2 {
+	
+}
+
+#project3 {
+	
+}
+
+/* THIRD TIER 
+#block_bottom {
+	background-color: #83EEFA;
+	height: 500px;
+	width: 100%;
+} */
